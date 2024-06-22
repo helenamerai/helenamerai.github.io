@@ -2433,9 +2433,9 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
-		ul li {
+		/* ul li {
 			padding-left: 0.5em;
-		}
+		} */
 
 		ul.alt {
 			list-style: none;
@@ -3582,7 +3582,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3790,7 +3790,7 @@ input, select, textarea {
 /* image icon */
 .flip-card {
 	background-color: transparent;
-	width: 120px;
+	/* width: 120px; */
 	height: 120px;
 	perspective: 1000px;
   }
@@ -4133,3 +4133,44 @@ input, select, textarea {
 	  text-align: justify;
   }
 
+
+  /* .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	list-style: none;
+	padding: 0px !important;
+  }
+
+  @media (max-width : 320px) {
+	.list {
+		list-style: none;
+		padding: 0px !important;
+	}
+   } */
+
+   	@media screen and (max-width: 610px) {
+		.list {
+			list-style: none;
+			padding: 0px !important;
+		}
+	}
+
+	@media screen and (min-width: 611px) {
+		.list {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			list-style: none;
+			padding: 0px !important;
+		}
+	}
+
+	@media screen and (min-width: 890px) {
+		.list {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			list-style: none;
+			padding: 0px !important;
+		}
+	}
+
+	
