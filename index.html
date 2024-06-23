@@ -740,10 +740,6 @@
 					window.open('docs/resume.pdf');
 				}
 
-				function onSendMessage() {
-					console.log('send message');
-				}
-
 				// SPG modal popup
 				var spg = document.getElementById("mySpg");
 				var btnSpg= document.getElementById("mySpgBtn");
@@ -823,7 +819,7 @@
 					let v = null;
 
 					if(slideStatus == 'spg'){
-						if(slideIndex > 5){
+						if(slideIndex > 4){
 							v = 1;
 							showSlides(v);
 							currentSlide(v);
