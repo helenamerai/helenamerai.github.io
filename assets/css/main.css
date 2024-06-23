@@ -3894,6 +3894,12 @@ input, select, textarea {
 		text-align: justify;
 	}
 
+	@media screen and (max-width: 990px) {
+		.work-item-body {
+			padding-top: 30px;
+		}
+	}
+
 	.work-item-body h3 {
 		text-align: center;
 		font-weight:bolder
